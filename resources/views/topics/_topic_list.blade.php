@@ -4,7 +4,7 @@
             <li class="media">
                 <div class="media-left">
                     <a href="{{ route('users.show', [$topic->user_id]) }}">
-                        <img class="media-object img-thumbnail mr-3" style="width: 52px; height: 52px;" src="{{ $topic->user->avatar ?? 'https://cdn.learnku.com/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/60/h/60' }}" title="{{ $topic->user->name ?? '叶亮' }}">
+                        <img class="media-object img-thumbnail mr-3" style="width: 52px; height: 52px;" src="{{ $topic->user->avatar }}" title="{{ $topic->user->name }}">
                     </a>
                 </div>
 
@@ -21,15 +21,15 @@
 
                     <small class="media-body meta text-secondary">
 
-                        <a class="text-secondary" href="#" title="{{ $topic->user->name ?? '叶亮' }}">
+                        <a class="text-secondary" href="{{ route('categories.show', $topic->category_id) }}" title="{{ $topic->category->name }}">
                             <i class="far fa-folder"></i>
-                            {{ $topic->user->name ?? '叶亮' }}
+                            {{ $topic->category->name }}
                         </a>
 
                         <span> • </span>
-                        <a class="text-secondary" href="{{ route('users.show', [$topic->user_id]) }}" title="{{ $topic->user->name ?? '叶亮' }}">
+                        <a class="text-secondary" href="{{ route('users.show', [$topic->user_id]) }}" title="{{ $topic->user->name }}">
                             <i class="far fa-user"></i>
-                            {{ $topic->user->name ?? '叶亮' }}
+                            {{ $topic->user->name }}
                         </a>
                         <span> • </span>
                         <i class="far fa-clock"></i>
