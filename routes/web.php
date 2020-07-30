@@ -30,3 +30,7 @@ Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 
 //发布帖子图片上传
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
+
+
+//百度翻译seo有好的url
+Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
