@@ -35,3 +35,6 @@ Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload
 //百度翻译seo有好的url
 Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
 Route::resource('replies', 'RepliesController', ['only' => [ 'store', 'destroy']]);
+
+//消息通知
+Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
