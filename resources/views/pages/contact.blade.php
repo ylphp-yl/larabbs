@@ -11,10 +11,10 @@
 
                         <div class="ui message warning">
 
-                            <i class="icon info"></i>添加微信请道明来意，谢谢 ;-)
+                            <i class="icon info"></i>添加微信请道明来意，谢谢 ！
                         </div>
 
-                        <img src="https://cdn.learnku.com/uploads/images/202003/20/1/evRoCOFIsQ.png!large" alt="" width="250" style="border: 2px solid #e4e4e4;border-radius: 4px;margin-bottom: 18px;">
+                        <img src="http://larabbs.test/uploads/images/founder/768284870999160156.jpg" alt="" width="250" style="border: 2px solid #e4e4e4;border-radius: 4px;margin-bottom: 18px;">
 
                     </div>
 

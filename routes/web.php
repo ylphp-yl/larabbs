@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', 'PagesController@root')->name('root');
-
+Route::get('to_contact_me', 'PagesController@contact')->name('contact');
 // 用户身份验证相关的路由
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
@@ -38,3 +38,5 @@ Route::resource('replies', 'RepliesController', ['only' => [ 'store', 'destroy']
 
 //消息通知
 Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
+
+Route::get('permission-denied', 'PagesController@permissionDenied')->name('permission-denied');
