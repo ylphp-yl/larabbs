@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/chronos" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/caouecs/laravel-lang" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ckeditor/ckeditor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
@@ -81,6 +82,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-permission" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/summerblue/administrator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/summerblue/generator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/summerblue/laravel-active" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
